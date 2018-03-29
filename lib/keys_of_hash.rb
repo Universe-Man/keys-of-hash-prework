@@ -2,8 +2,8 @@ require "pry"
 
 class Hash
   def keys_of_hash(*arguments)
-    binding.pry
-    keys = arguments.keys
+    array = []
+    array.push(arguments)
     return keys
   end
 end
